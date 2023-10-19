@@ -5,7 +5,7 @@ metadata:
   name: s3-argo-test
 spec:
   forProvider:
-    region: us-east-2
+    region: us-east-1
   providerConfigRef:
     name: default
 
