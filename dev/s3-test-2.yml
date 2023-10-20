@@ -1,7 +1,7 @@
 apiVersion: s3.aws.upbound.io/v1beta1
 kind: Bucket
 metadata:
-  name: s3-argo-test-2
+  name: s3-argo-test-3
 spec:
   forProvider:
     region: us-east-1
