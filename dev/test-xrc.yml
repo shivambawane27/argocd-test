@@ -23,7 +23,7 @@ spec:
             - type: map
               map: 
                 EU: "eu-north-1"
-                US: "us-east-2"
+                US: "us-east-1"
     - name: dynamoDB
       base:
         apiVersion: dynamodb.aws.upbound.io/v1beta1
