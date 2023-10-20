@@ -47,7 +47,7 @@ spec:
             - type: map
               map: 
                 EU: "eu-north-1"
-                US: "us-east-2"
+                US: "us-east-1"
   compositeTypeRef:
     apiVersion: database.example.com/v1alpha1
     kind: NoSQL
