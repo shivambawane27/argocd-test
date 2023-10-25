@@ -6,6 +6,9 @@ metadata:
 spec:
   forProvider:
     region: us-east-1
+    tags:
+      Name: SampleBucket
   providerConfigRef:
     name: default
+    
 
