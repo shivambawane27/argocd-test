@@ -35,8 +35,8 @@ spec:
         spec:
           forProvider:
             region: "us-east-2"
-            writeCapacity: 1
-            readCapacity: 1
+            writeCapacity: 3
+            readCapacity: 3
             attribute:
               - name: S3ID
                 type: S
