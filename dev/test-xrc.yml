@@ -13,6 +13,8 @@ spec:
         spec:
           forProvider:
             region: us-east-2
+            tags:
+              Name: TestTag
           providerConfigRef:
             name: default
       patches:
