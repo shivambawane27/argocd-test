@@ -1,6 +1,7 @@
 apiVersion: database.example.com/v1alpha1
-kind: NoSQL
+kind: NoSQLClaim
 metadata:
-  name: my-nosql-database2
+  name: my-nosql-database123
+  namespace: crossplane-test
 spec: 
   location: "US"
