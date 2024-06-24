@@ -11,7 +11,7 @@ spec:
     namespace: default
     server: https://kubernetes.default.svc
   source:
-    path: definitions
+    path: argo-definitions/core
     repoURL: https://github.com/shivambawane27/argocd-test
     targetRevision: HEAD
   syncPolicy:
