@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: core-dev
+  name: core-dev-prooj-1
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -11,6 +11,6 @@ spec:
     namespace: default
     name: in-cluster
   source:
-    path: definitions/proj
+    path: infra/core/proj-1/values-dev.yaml
     repoURL: https://github.com/shivambawane27/argocd-test
     targetRevision: HEAD
