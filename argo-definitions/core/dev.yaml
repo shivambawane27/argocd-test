@@ -11,7 +11,7 @@ spec:
     namespace: default
     name: in-cluster
   source:
-    path: argocd-test/argo-definitions/core/dev
+    path: argo-definitions/core/dev
     repoURL: https://github.com/shivambawane27/argocd-test
     targetRevision: HEAD
   syncPolicy:
