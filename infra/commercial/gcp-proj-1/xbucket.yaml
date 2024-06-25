@@ -1,0 +1,9 @@
+apiVersion: atmos.org/v1alpha1
+kind: XBucket
+metadata:
+  name: recover-test-5
+spec:
+  region: us-east-1
+  name: recover-test-5
+  account: "749034597748"
+  
