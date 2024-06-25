@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: core-dev
+  name: core
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -9,9 +9,9 @@ spec:
   project: default
   destination:
     namespace: default
-    name: in-cluster
+    server: https://kubernetes.default.svc
   source:
-    path: argo-definitions/core/dev
+    path: argo-definitions/commercial
     repoURL: https://github.com/shivambawane27/argocd-test
     targetRevision: HEAD
   syncPolicy:
@@ -21,4 +21,3 @@ spec:
     automated:
       selfHeal: true
       prune: true
-
