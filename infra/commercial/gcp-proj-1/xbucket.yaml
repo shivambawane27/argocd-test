@@ -1,1 +1,9 @@
-
+apiVersion: atmos.org/v1alpha1
+kind: XBucketClaim
+metadata:
+  name: please-please
+  namespace: crossplane-test
+spec:
+  region: us-east-1
+  name: please-please
+  account: "749034597748"
